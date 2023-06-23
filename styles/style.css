@@ -68,7 +68,7 @@ h2 {
     color: #000000;
 }
 
-.about p {
+.about__text {
     margin-bottom: 50px;
     width: 1048px;
     height: 366px;
@@ -80,7 +80,7 @@ h2 {
     color: #000000;
 }
 
-.about a {
+.about__btn {
     display: inline-block;
     width: 255px;
     height: 67px;
