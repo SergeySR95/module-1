@@ -191,6 +191,10 @@ h2 {
     margin-bottom: 60px;
 }
 
+.service:nth-last-child(1) {
+    margin-bottom: 0px;
+}
+
 .project__img {
     /* margin-bottom: 15px; */
     width: 1150px;
