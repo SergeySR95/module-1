@@ -27,7 +27,7 @@ body {
     width: 1400px;
     padding: 0px 125px;
 
-    background-image: url("/resources/photo.png");
+    background-image: url("../resources/photo.png");
 }
 
 .nav {
