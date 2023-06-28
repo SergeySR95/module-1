@@ -9,7 +9,7 @@ body {
 .container {
     margin: 0 auto;
     width: 1400px;
-    padding: 0px 125px;
+    padding: 0px 125px 150px 125px;
 
     background: #ffffff;
 }
@@ -25,11 +25,9 @@ body {
 .container-img {
     margin: 0 auto;
     width: 1400px;
-    height: 717px;
     padding: 0px 125px;
 
     background-image: url("/resources/photo.png");
-    /* background-size: contain; */
 }
 
 .nav {
@@ -38,7 +36,6 @@ body {
 
 .title, 
 .about,
-.projects, 
 .photo {
     margin-bottom: 150px;
 }
@@ -198,7 +195,6 @@ h2 {
 }
 
 .project__img {
-    /* margin-bottom: 15px; */
     width: 1150px;
     height: 270px;
 
@@ -206,11 +202,24 @@ h2 {
 }
 
 .services h3 {
-
-    /*Почему то сработал только верхний маржин от заголовка, в нижний маржин не сработал - НАЙТИ ПРИЧИНУ*/
     margin-top: 15px;
     font-size: 30px;
     letter-spacing: -0.9px;
 
     color: #FFF;
+}
+
+.photo {
+    position: relative;
+    height: 717px;
+}
+
+.photo__text {
+    position:absolute;
+    width: 443px;
+    bottom: 60px;
+    
+    color: #FFF;
+    font-size: 30px;
+    letter-spacing: -0.9px;
 }
